@@ -3,7 +3,7 @@ import styles from './Login.module.css'
 import { FormEvent, useState } from "react"
 import { useForm } from "../../../hooks/useForm"
 import { useAppDispatch } from "../../../hooks/redux"
-import { setLogin, setLogout } from "../../../redux/slices/auth"
+import { setLogin } from "../../../redux/slices/auth"
 import { useNavigate } from "react-router-dom"
 
 export const Login = () => {
