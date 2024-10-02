@@ -1,0 +1,10 @@
+.card {
+    width: 100%;
+    transition: 0.2s ease-in;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: grayscale(80%);
+}

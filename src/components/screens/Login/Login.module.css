@@ -1,0 +1,30 @@
+.containerLogin{
+    background: rgb(56,119,255);
+    background: radial-gradient(circle,
+     rgba(56,119,255,1) 0%,
+     rgb(18, 61, 153) 80%);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm{
+    background-color: rgb(22, 35, 63);
+    border-radius: 0.6rem;
+    padding: 2rem;
+    height: 54vh;
+    width: 42vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm span, Label {
+    color: rgb(228, 228, 228);
+}
