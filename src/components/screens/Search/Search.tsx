@@ -15,8 +15,9 @@ export const Search = () => {
 
   const [heroes, setHeroes] = useState<IHeroes[]>([])
   useEffect(()=>{
+    console.log(heroesData)
     const filteredHeroes = heroesData.filter(
-      (h)=>h.superhero.toLowerCase().trim().includes(search)
+      (h)=>h.superhero.toLowerCase().trim().includes(search.toLowerCase().trim())
     )
 
     setHeroes(filteredHeroes)

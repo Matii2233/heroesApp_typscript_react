@@ -36,7 +36,6 @@ export const Login = () => {
   return (
     <div className={styles.containerLogin}>
       <div className={styles.containerForm}>
-
         <span className="material-symbols-outlined"
           style={{ fontSize: '3rem', marginBottom: '1rem' }}>account_circle
         </span>
@@ -59,9 +58,17 @@ export const Login = () => {
           </Form.Group>
 
           <Form.Group className="mb-3">
-            <Button type="submit" variant="primary">Iniciar Sesion</Button>{' '}
+            <Button type="submit" variant="primary">Iniciar Sesion</Button>{''}
           </Form.Group>
         </Form>
+      </div>
+
+      <div className={styles.credentialsPanel}>
+        <p>
+          Este es una simulacion de login, por lo que no hay una base de datos con usuario reales para loguearse.
+        </p>
+        <b>Usuario: admin</b>
+        <b>Contraseña: 1234</b>
       </div>
     </div>
   )

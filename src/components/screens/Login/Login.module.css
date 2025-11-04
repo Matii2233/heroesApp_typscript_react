@@ -7,9 +7,10 @@
     width: 100vw;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
 }
 
 .containerForm{
@@ -27,4 +28,15 @@
 
 .containerForm span, Label {
     color: rgb(228, 228, 228);
+}
+
+.credentialsPanel {
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(22, 35, 63);
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
 }
